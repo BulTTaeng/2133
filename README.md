@@ -30,7 +30,7 @@ So, the possible cases will be like this.
 
 3 * 2 = 3 (there is 3 possilbe cases to fill 3 * 2 wall , now call this 2_1 , 2_2 , 2_3)
 
-3 * 4 = 2_? and 2_? ( 3 * 3 = 9 cases) + 2(Shown in the picture , call this 4_1 , 4_2)
+3 * 4 = 2_? and 2_? ( 3 * 3 = 9 cases) + 2(Shown in the picture above, call this 4_1 , 4_2)
 
 3 * 6 = 2_? and 2_? and 2_?(27) + 2_? and 4_? (6) + 4_? and 2_? (6) + 2(call this 6_1, 6_2)
 
@@ -46,7 +46,7 @@ In 3 * 8 case, adding 6_? to the (i-6) case + adding 4_? to the (i-4) case + add
 
 So, we find the solution that 
 
-3 * N case = adding (N-2)_? to the (i-2) case + adding (N-4) to the (i-4) case + ....... + 2.
+3 * N case = adding (N-2)_? to the (i-2) case + adding (N-4)_? to the (i-4) case + ....... + 2.
 
 ## Where can I get more help, if I need it?
 
